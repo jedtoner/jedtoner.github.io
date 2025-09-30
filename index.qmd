@@ -1,15 +1,18 @@
 ---
-title: "Jed Toner - Welcome"
-format: html
+title: "Jed Toner - Data Scientist"
+subtitle: "Data Scientist | Bayesian Modeling | Machine Learning"
+format: 
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    hero: hero-gradient
+    hero-margin: 0
 ---
 
-# Welcome
+# About Me
 
-Welcome to my personal website!!
-
-## About Me
-
-I am passionate about using data to find unique insights about the world.  
 My experience lies in:
 
 - Bayesian hierarchical modeling  

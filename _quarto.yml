@@ -3,6 +3,8 @@ project:
 
 website:
   title: "Jed Toner - Portfolio & Blog"
+  description: "Data Scientist specializing in Bayesian modeling, forecasting, and machine learning"
+  site-url: "https://jedtoner.github.io"
   
   navbar:
     background: primary
@@ -13,6 +15,11 @@ website:
         text: CV
       - href: blog/index.qmd
         text: Blog
+    right:
+      - icon: github
+        href: https://github.com/jedtoner
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jed-toner
   
   page-footer:
     right: "Built with Quarto"
@@ -20,7 +27,7 @@ website:
 
 format:
   html:
-    theme: 
-      - flatly
-      - cosmo
+    theme: flatly
     css: styles.css
+    toc: true
+    toc-depth: 2
