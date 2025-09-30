@@ -1,0 +1,9 @@
+# blog/_quarto.yml (Blog Sub-Configuration)
+listing:
+  contents: "." # Look for all .qmd and .ipynb files in this folder
+  type: default
+  sort: "date desc"
+  fields: [image, date, title, description, categories]
+  
+  # Controls the layout of the blog listing page
+  page-size: 10

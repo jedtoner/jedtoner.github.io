@@ -1,0 +1,12 @@
+title: "Jed Toner - Welcome"
+Welcome to my personal website!
+About Me
+I am passionate about using data to find unique insights about the world. My experience lies in bayesian hierarchical modeling, causal inference, and machine learning. I have experience in developing complex market mix models that incorporate various hierarchies and nonlinearities. I also have experience in machine learning operations: from productionizing models by building API Server's, and servicing CI/CD pipelines to ensure that models are deployed and maintained in a reliable and efficient manner.
+
+Projects
+AFL Prediction Model – link
+
+Property Price Prediction – link
+
+Contact
+Email: jedto.13@gmail.com

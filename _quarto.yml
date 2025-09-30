@@ -1,0 +1,29 @@
+# _quarto.yml (Site Configuration)
+project:
+  type: website
+
+website:
+  # Update this with your actual name
+  title: "Jed Toner - Portfolio & Blog"
+  
+  # Defines the navigation links
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+      - href: resume.qmd
+        text: Resume
+      - href: blog/index.qmd
+        text: Blog
+  
+  # Sets the overall site theme for aesthetics
+  page-footer:
+    right: "Built with Quarto"
+    left: "&copy; 2024 Jed Toner"
+  theme: cosmo # A clean, professional, and responsive theme
+  
+format:
+  html:
+    toc: true # Enable Table of Contents on individual blog posts
+    css: styles.css # Link to an optional custom stylesheet (created below)

@@ -1,0 +1,42 @@
+name: Publish Quarto Site to GitHub Pages
+
+on:
+  push:
+    branches: [main] # Trigger this workflow whenever a change is pushed to the 'main' branch
+  workflow_dispatch: # Allows manual trigger from the GitHub UI
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    # Use environment variable to set the publication directory
+    env:
+      QUARTO_PUB_DIR: docs
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Set up Python environment
+        # Required to execute and render Jupyter Notebooks (ipynb files)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip' # Cache dependencies to speed up subsequent runs
+
+      - name: Install dependencies for notebooks
+        run: |
+          pip install jupyter ipykernel matplotlib numpy pandas # Add any other libraries your notebooks use
+
+      - name: Render and Publish Quarto site
+        # This renders all .qmd and .ipynb files into static HTML
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          # This assumes your GitHub Pages settings are configured to serve from the 'gh-pages' branch
+          target: gh-pages 
+          # The generated files will be placed into the '_site' folder by default
+          # The 'target: gh-pages' setting handles committing this folder to the gh-pages branch.
+          
