@@ -5,7 +5,6 @@ format: html
 
 # Jed Toner
 
-📞 0497 594 116  
 📍 Melbourne, Victoria  
 ✉️ [JedTo.13@gmail.com](mailto:JedTo.13@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/) | [GitHub](https://github.com/)  
