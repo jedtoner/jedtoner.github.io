@@ -27,10 +27,6 @@ jobs:
           python-version: '3.11'
           cache: 'pip' # Cache dependencies to speed up subsequent runs
 
-      - name: Install dependencies for notebooks
-        run: |
-          pip install jupyter ipykernel matplotlib numpy pandas # Add any other libraries your notebooks use
-
       - name: Render and Publish Quarto site
         # This renders all .qmd and .ipynb files into static HTML
         uses: quarto-dev/quarto-actions/publish@v2

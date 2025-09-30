@@ -1,0 +1,18 @@
+---
+title: "Blog"
+listing:
+  contents: .
+  type: default
+  sort: "date desc"
+  categories: true
+  sort-ui: true
+  filter-ui: true
+page-layout: article
+---
+
+# Blog
+
+Welcome to my blog!  
+Here you’ll find articles and posts on **data science, Bayesian modeling, forecasting, machine learning pipelines, and personal projects**.
+
+---

@@ -1,0 +1,81 @@
+---
+title: "Resume - Jed Toner"
+format: html
+---
+
+# Jed Toner
+
+📞 0497 594 116  
+📍 Melbourne, Victoria  
+✉️ [JedTo.13@gmail.com](mailto:JedTo.13@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/) | [GitHub](https://github.com/)  
+
+---
+
+## Summary
+
+Data Scientist with expertise in **Bayesian modeling, forecasting, ML pipelines, and cloud-based solutions**.  
+Skilled in delivering scalable models and data-driven insights across fast-paced startup and academic environments.
+
+---
+
+## Experience
+
+### Data Scientist — Prophet  
+*Jan 2024 – Present*
+
+**Data Science**  
+- Designed and implemented a **commercial Marketing Mix Model** in Python (PyMC), applying Hierarchical Bayes with partial pooling, nonlinear regression, and advanced adstock/saturation dynamics. Achieved out-of-sample MAPE as low as **11%**.  
+- Engineered a scalable **PCA framework in R** to condense a library of 80,000+ macroeconomic variables into actionable inputs.  
+- Developed robust **time series forecasting pipelines** (ARIMA, VAR, LSTM/RNN) with synthetic data generation to ensure model continuity despite data delays.  
+
+**Machine Learning Operations (MLOps)**  
+- Built and maintained **API servers**, fully containerized with Docker, and implemented CI/CD pipelines via GitHub Actions, reducing deployment time by **80%**.  
+- Containerized and deployed multiple ML model interfaces to **Google Cloud Run** for scalable production.  
+- Created interactive **model evaluation frameworks** (Python + HTML), streamlining model selection and benchmarking.  
+
+**Data Engineering / Other**  
+- Built and managed **end-to-end ELT pipelines** (Fivetran, SQL, Pandas, R tidyverse) to ingest and transform marketing data (Google Ads, Facebook Ads, Google Analytics, Google Trends).  
+- Designed and maintained **cloud-based architectures** (VMs, Cloud Run, GCS, Artifact Registry, BigQuery).  
+- Managed **PostgreSQL and BigQuery databases**, ensuring data reliability and accessibility for analytics.  
+
+---
+
+## Personal Projects
+
+- **AFL Game Prediction Model**  
+  Built a **hierarchical Bayesian model** to forecast AFL outcomes with **82% out-of-sample accuracy**. Designed an end-to-end ELT pipeline for ingesting, cleaning, and transforming match and player data for real-time updates.  
+
+- **Property Price Predictor**  
+  Developed **machine learning models (XGBoost, SVM)** to predict Sydney property prices. Pipeline included data collection, preprocessing, postcode enrichment via APIs, and suburb ranking analysis. Evaluated performance using RMSE and MAPE.  
+
+👉 More details and source code available on my [GitHub](https://github.com/).  
+
+---
+
+## Education
+
+**Bachelor of Science (Applied Mathematics Major)**  
+*University of Melbourne — Graduated Nov 2023*  
+- **Mathematics & Applied Analysis**: Multivariate calculus, differential equations, complex analysis; applied problem-solving with R and MATLAB.  
+- **Data Science & Statistics**: Proficient in Python for analysis/visualization, foundational ML algorithms, probability, estimation, hypothesis testing, GLMs.  
+- **Programming & Algorithms**: Strong foundation in data structures and algorithms (binary trees, hash tables, asymptotic complexity).  
+
+**Higher School Certificate**  
+*Xavier High School — Graduated Nov 2020*  
+- ATAR **98.35** with excellent scores in Physics, Mathematics Extension 1 & 2.  
+
+---
+
+## Tech Stack
+
+**Languages & Tools:** Python, R, SQL, Pandas, NumPy, scikit-learn, PyMC, PyTensor, ArviZ, Matplotlib, Seaborn  
+**Platforms & APIs:** OpenAI API, Flask  
+**Databases:** PostgreSQL, BigQuery  
+**DevOps & Cloud:** Docker, Cloud Run, Google Cloud Platform, GitHub Actions  
+
+---
+
+## Certifications
+
+- Google Cloud Computing Foundations Certificate
