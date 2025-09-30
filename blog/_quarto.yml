@@ -4,4 +4,4 @@ listing:
   type: default
   sort: "date desc"
   fields: [image, date, title, description, categories]
-  page-size: 10
+  page-size: 20

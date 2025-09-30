@@ -149,3 +149,8 @@ pre {
 .nav-list {
   background-color: transparent !important;
 }
+
+.quarto-listing-table {
+  max-width: 100%;
+  width: 100%;
+}

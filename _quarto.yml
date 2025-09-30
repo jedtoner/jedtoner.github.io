@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Jed Toner - Portfolio & Blog"
+  title: "Jed Toner - Personal Website"
   description: "Data Scientist specializing in Bayesian modeling, forecasting, and machine learning"
   site-url: "https://jedtoner.github.io"
   
